@@ -4,9 +4,9 @@ La **MovieDB App** es una aplicación que te permite buscar información sobre p
 
 ## Capturas de pantalla
 
-![Home Screenshot](MovieDB_2/Resource/home.png)
+<img src="images/movie_db_app.png" alt="MovieDB App" width="390" height="844">
 
-![Detail Screenshot](MovieDB_2/Resource/detail.png)
+<img src="images/movie_db_app.png" alt="MovieDB App" width="390" height="844">
 
 ## Características
 
