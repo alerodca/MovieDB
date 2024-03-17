@@ -9,10 +9,10 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    
-    @IBOutlet weak var imageViewCell: UIImageView!
-    @IBOutlet weak var titlelLabel: UILabel!
-    @IBOutlet weak var yearLabel: UILabel!
+    // MARK: - IBOutlets
+    @IBOutlet weak var imageViewCell: UIImageView! // Image view for displaying movie poster
+    @IBOutlet weak var titlelLabel: UILabel! // Label for displaying movie title
+    @IBOutlet weak var yearLabel: UILabel! // Label for displaying movie release year
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,5 +24,5 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }
+

@@ -9,18 +9,18 @@ import UIKit
 
 extension UIImageView {
     func loadImage(from urlString: String?) {
-        // Verificar si la URL es válida
+        // Check if the URL is valid
         guard let urlString = urlString, let url = URL(string: urlString) else {
             return
         }
-        // Descargar la imagen
+        // Download the image
         URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data, error == nil else {
                 return
             }
-            // Convertir los datos descargados en una imagen
+            // Convert the downloaded data into an image
             if let image = UIImage(data: data) {
-                // Actualizar la UI en el hilo principal
+                // Update the UI on the main thread
                 DispatchQueue.main.async {
                     self.image = image
                 }
@@ -28,4 +28,3 @@ extension UIImageView {
         }.resume()
     }
 }
-
