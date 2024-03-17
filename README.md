@@ -1,12 +1,14 @@
 # MovieDB App
 
+![MovieDB App](images/movie_db_app.png)
+
 La **MovieDB App** es una aplicación que te permite buscar información sobre películas utilizando la base de datos de IMDb. Puedes buscar películas por título y ver detalles como el título, año de lanzamiento, duración, género, sinopsis y más.
 
 ## Capturas de pantalla
 
-<img src="images/movie_db_app.png" alt="MovieDB App" width="390" height="844">
+![Screenshot 1](images/screenshot1.png)
 
-<img src="images/movie_db_app.png" alt="MovieDB App" width="390" height="844">
+![Screenshot 2](images/screenshot2.png)
 
 ## Características
 
