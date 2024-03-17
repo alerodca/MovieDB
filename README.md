@@ -19,7 +19,7 @@ La **MovieDB App** es una aplicación que te permite buscar información sobre p
 
 ## Autor
 
-Alejandro Rodríguez Cañete - [@usuario](https://github.com/alerodca)
+Alejandro Rodríguez Cañete - [@alerodca](https://github.com/alerodca)
 
 ## Licencia
 
