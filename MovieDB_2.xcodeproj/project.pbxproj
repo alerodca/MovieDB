@@ -13,8 +13,8 @@
 		9F7011092BA606120082A606 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7011082BA606120082A606 /* HomeViewModel.swift */; };
 		9F78AD7E2BA70053008CDDF3 /* DeatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F78AD7C2BA70053008CDDF3 /* DeatilViewController.swift */; };
 		9F78AD7F2BA70053008CDDF3 /* DeatilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F78AD7D2BA70053008CDDF3 /* DeatilViewController.xib */; };
-		9F78AD842BA75371008CDDF3 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F78AD822BA75371008CDDF3 /* home.png */; };
-		9F78AD852BA75371008CDDF3 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F78AD832BA75371008CDDF3 /* detail.png */; };
+		9F78AD882BA754F4008CDDF3 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F78AD862BA754F4008CDDF3 /* home.png */; };
+		9F78AD892BA754F4008CDDF3 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F78AD872BA754F4008CDDF3 /* detail.png */; };
 		9F846C8C2BA4F0BC00992686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846C8B2BA4F0BC00992686 /* AppDelegate.swift */; };
 		9F846C8E2BA4F0BC00992686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846C8D2BA4F0BC00992686 /* SceneDelegate.swift */; };
 		9F846C952BA4F0BF00992686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F846C942BA4F0BF00992686 /* Assets.xcassets */; };
@@ -32,8 +32,8 @@
 		9F7011082BA606120082A606 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9F78AD7C2BA70053008CDDF3 /* DeatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatilViewController.swift; sourceTree = "<group>"; };
 		9F78AD7D2BA70053008CDDF3 /* DeatilViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeatilViewController.xib; sourceTree = "<group>"; };
-		9F78AD822BA75371008CDDF3 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		9F78AD832BA75371008CDDF3 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		9F78AD862BA754F4008CDDF3 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		9F78AD872BA754F4008CDDF3 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
 		9F846C882BA4F0BC00992686 /* MovieDB_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDB_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F846C8B2BA4F0BC00992686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F846C8D2BA4F0BC00992686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 		9F78AD7A2BA6F11B008CDDF3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				9F78AD832BA75371008CDDF3 /* detail.png */,
-				9F78AD822BA75371008CDDF3 /* home.png */,
+				9F78AD872BA754F4008CDDF3 /* detail.png */,
+				9F78AD862BA754F4008CDDF3 /* home.png */,
 				9F846C942BA4F0BF00992686 /* Assets.xcassets */,
 				9F846C962BA4F0BF00992686 /* LaunchScreen.storyboard */,
 			);
@@ -213,10 +213,10 @@
 			files = (
 				9F846C982BA4F0BF00992686 /* LaunchScreen.storyboard in Resources */,
 				9F7011042BA5FC1A0082A606 /* TableViewCell.xib in Resources */,
-				9F78AD842BA75371008CDDF3 /* home.png in Resources */,
+				9F78AD882BA754F4008CDDF3 /* home.png in Resources */,
 				9F846C952BA4F0BF00992686 /* Assets.xcassets in Resources */,
 				9F846CA52BA4F1FD00992686 /* HomeViewController.xib in Resources */,
-				9F78AD852BA75371008CDDF3 /* detail.png in Resources */,
+				9F78AD892BA754F4008CDDF3 /* detail.png in Resources */,
 				9F78AD7F2BA70053008CDDF3 /* DeatilViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
